@@ -1,0 +1,23 @@
+@media (min-width:935px) {
+    .main_container{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (min-width:1380px) {
+    .main_container{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media (min-width:1320px) {
+    .main_container{
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+
+@media(min-width:768px) {
+    .card_image_container{
+        height: 16rem;
+    }
+}
